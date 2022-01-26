@@ -1,2 +1,3 @@
 all:
-	gcc -o client.bin -lm client.c
+	gcc -o client -lm client.c
+	gcc -o server -lm server.c
